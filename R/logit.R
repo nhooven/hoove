@@ -1,4 +1,7 @@
-# logit function (accepts a probability)
+#' logit function
+#'
+#' @param x probability
+#' @export
 logit <- function (x) {
 
   if (x >= 0 & x <= 1.0) {
